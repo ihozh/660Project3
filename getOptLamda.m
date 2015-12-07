@@ -30,3 +30,5 @@ for i = 1:4
         Acc(i) = Acc(i)+acc;
     end
 end
+[Y,U]=max(Acc)
+optLamda = lanbdaSet(U);
