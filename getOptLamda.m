@@ -18,7 +18,7 @@
 % @ 2011 Kiho Kwak -- kkwak@andrew.cmu.edu
 
 lanbdaErr = [];
-Acc = [];
+Acc = zeros(1,4);
 for i = 1:4
     lanbda = lanbdaSet(i);
     for j =1:5
